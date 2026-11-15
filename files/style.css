@@ -1,0 +1,24 @@
+body { font-family: system-ui, sans-serif; margin: 0; color: #1f2937; background: #f9fafb; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 1rem; background: #1e3a8a; color: #fff; }
+header h1 { font-size: 1.2rem; margin: 0; }
+header a { color: #fff; }
+main { display: grid; grid-template-columns: minmax(280px, 340px) 1fr; gap: 1rem; padding: 1rem; }
+@media (max-width: 800px) { main { grid-template-columns: 1fr; } }
+.painel { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; }
+h2 { font-size: 1rem; margin: 1rem 0 0.4rem; }
+label { display: block; margin: 0.4rem 0; font-size: 0.85rem; }
+input, select { width: 100%; box-sizing: border-box; padding: 0.25rem; }
+button { margin: 0.2rem 0.2rem 0.2rem 0; padding: 0.4rem 0.7rem; cursor: pointer; }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+th, td { border: 1px solid #e5e7eb; padding: 0.2rem 0.4rem; text-align: right; }
+td input { border: 0; }
+#mensagens { color: #b91c1c; font-size: 0.85rem; padding-left: 1.2rem; }
+#grafo { width: 100%; max-height: 70vh; background: #f3f4f6; border-radius: 8px; }
+#grafo text { font: bold 24px sans-serif; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.legenda { font-size: 0.8rem; }
+#metricas { display: grid; grid-template-columns: max-content 1fr; gap: 0.2rem 1rem; }
+#metricas dt { font-weight: bold; } #metricas dd { margin: 0; }
+.rolagem { max-height: 220px; overflow: auto; }
+#tabela-historico tbody tr { cursor: pointer; }
+#tabela-historico tbody tr:hover { background: #eff6ff; }

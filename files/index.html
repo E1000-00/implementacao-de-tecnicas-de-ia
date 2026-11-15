@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colônia de Formigas — Rota de Entregas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Colônia de Formigas: rota de entregas</h1>
+    <a href="https://github.com/SEU-USUARIO/SEU-REPOSITORIO" target="_blank" rel="noopener">Código no GitHub</a>
+  </header>
+
+  <main>
+    <!-- Coluna da esquerda: dados, parâmetros e controles -->
+    <section class="painel">
+      <div id="dados">
+        <h2>Vértices</h2>
+        <table id="tabela-vertices">
+          <thead><tr><th>Id</th><th>x (0–1000)</th><th>y (0–1000)</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <button id="btn-adicionar" type="button">+ Vértice</button>
+        <button id="btn-referencia" type="button">Carregar teste 6.4</button>
+
+        <h2>Parâmetros</h2>
+        <label>Depósito <select id="deposito"></select></label>
+        <div id="campos"></div>
+      </div>
+
+      <div id="controles">
+        <button id="btn-executar" type="button">Executar</button>
+        <button id="btn-pausar" type="button">Pausar</button>
+        <button id="btn-avancar" type="button">Avançar uma iteração</button>
+        <button id="btn-reiniciar" type="button">Reiniciar</button>
+        <label>Velocidade visual (não altera os resultados)
+          <input id="velocidade" type="range" min="0" max="1000" step="50" value="300">
+        </label>
+      </div>
+      <ul id="mensagens" role="alert"></ul>
+    </section>
+
+    <!-- Coluna da direita: grafo, métricas, histórico e logs -->
+    <section class="painel">
+      <svg id="grafo" viewBox="-60 -60 1120 1120" role="img" aria-label="Grafo das entregas"></svg>
+      <p class="legenda"><b>Legenda:</b> vértice azul = depósito; linha cinza = feromônio (espessura e opacidade
+        relativas ao maior valor atual, <span id="escala"></span>; essa escala muda a cada iteração);
+        linha laranja = melhor rota acumulada. Passe o cursor sobre uma aresta para ver distância e feromônio.</p>
+      <p id="info-aresta"></p>
+
+      <dl id="metricas">
+        <dt>Iteração atual</dt><dd id="m-iteracao"></dd>
+        <dt>Menor distância da iteração</dt><dd id="m-menor"></dd>
+        <dt>Média das distâncias das formigas</dt><dd id="m-media"></dd>
+        <dt>Melhor distância acumulada</dt><dd id="m-melhor"></dd>
+        <dt>Melhor rota</dt><dd id="m-rota"></dd>
+      </dl>
+
+      <h2>Histórico (clique em uma linha para ver o log)</h2>
+      <div class="rolagem">
+        <table id="tabela-historico">
+          <thead><tr><th>Iteração</th><th>Menor</th><th>Média</th><th>Melhor acumulada</th><th>Melhor rota da iteração</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div id="detalhes"></div>
+    </section>
+  </main>
+
+  <script src="aco.js"></script>
+  <script src="validacao.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
