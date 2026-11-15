@@ -10,8 +10,8 @@ Universidade Federal do Piauí (UFPI) — 2026.2
 
 ## Links
 
-- **Aplicação Online (GitHub Pages):** https://e1000-00.github.io/NOME-DO-NOVO-REPOSITORIO/
-- **Repositório:** https://github.com/E1000-00/NOME-DO-NOVO-REPOSITORIO
+- **Aplicação Online (GitHub Pages):** https://e1000-00.github.io/implementacao-de-tecnicas-de-ia/
+- **Repositório:** https://github.com/E1000-00/implementacao-de-tecnicas-de-ia
 
 ## Organização das Pastas
 
