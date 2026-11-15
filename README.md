@@ -17,4 +17,4 @@ Universidade Federal do Piauí (UFPI) — 2026.2
 
 - `/fuzzy`: Simulador de Sistema Fuzzy Mamdani para recomendação de tempo de irrigação de jardim 
 - `/algoritmo_geneticoo`: Implementação do Algoritmo Genético.
-- `/files`: Implementação do Algoritimo colônia de formigas
+- `/files`: Implementação do Algoritimocolônia de formigas
