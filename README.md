@@ -4,9 +4,9 @@ Universidade Federal do Piauí (UFPI) — 2026.2
 
 ## Integrantes do Trio
 
-- Eric Albuquerque Silva
-- Lucio Vitor Santos da Penha
-- Francisco Eduardo Mesquita Cruz
+- Eric Albuquerque Silva - 20249046512
+- Lucio Vitor Santos da Penha - 20249040260
+- Francisco Eduardo Mesquita Cruz - 20249021451
 
 ## Links
 

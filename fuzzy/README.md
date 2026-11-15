@@ -6,10 +6,9 @@ Atividade Prática sobre Sistemas Fuzzy
 
 ## Alunos
 
-- Eric Albuquerque Silva
-- Lucio Vitor Santos da Penha
-- Francisco Eduardo Mesquita Cruz
-
+- Eric Albuquerque Silva - 20249046512
+- Lucio Vitor Santos da Penha - 20249040260
+- Francisco Eduardo Mesquita Cruz - 20249021451
 ## Links
 
 - Aplicação (GitHub Pages): https://e1000-00.github.io/simulador-fuzzy-irrigacao/

@@ -1,9 +1,8 @@
 # Simulador de Algoritmo Genético: projetos de melhoria do campus
 
-**Autores:** _[preencher: nomes e matrículas, até 3 estudantes]_
-**Disciplina:** Inteligência Artificial, UFPI 2026.2
-**Aplicação publicada:** _[colar o link do GitHub Pages]_
-
+- Eric Albuquerque Silva - 20249046512
+- Lucio Vitor Santos da Penha - 20249040260
+- Francisco Eduardo Mesquita Cruz - 20249021451
 ## Descrição
 Simulador em HTML, CSS e JavaScript (sem servidor) que usa um algoritmo genético para escolher projetos com orçamento limitado, maximizando o benefício total.
 

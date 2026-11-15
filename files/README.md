@@ -1,7 +1,8 @@
 # Colônia de Formigas — Rota de Entregas
 
-**Autores:** _(preencher: nome e matrícula de cada integrante)_
-**Aplicação publicada:** _(colar o link do GitHub Pages)_
+- Eric Albuquerque Silva - 20249046512
+- Lucio Vitor Santos da Penha - 20249040260
+- Francisco Eduardo Mesquita Cruz - 20249021451
 
 ## Descrição da solução
 
